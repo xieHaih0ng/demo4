@@ -34,7 +34,11 @@ public interface UserService {
   public boolean isExists(String name);
   
   public User findById(Integer id);
-  
+  /**
+   * 删除
+   * @param id
+   * @return
+   */
   public boolean delete(Integer id);
   
   public List<User> findUsers(UserDto userDto) ;
